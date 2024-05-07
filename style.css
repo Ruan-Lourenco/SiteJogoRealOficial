@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgba(60, 42, 94, 0.795);
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+}
+
+main {
+    background-color: rgb(254, 248, 240);
+    color: rgb(43, 42, 42);
+    height: 450px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#content {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 1.1em;
+    justify-content: center;
+
+}
+h3 {
+    font-size: 1.7em;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+input {
+    display: inline-block;
+}
+label{
+    font-size: large;
+    padding-right: 25px;
+}
+
+
+footer{
+    position: absolute;
+    top: 100%;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+#inputCheckbox{
+    display: flex;
+    justify-content: center;
+
+}
+
+#question{
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: large;
+}
