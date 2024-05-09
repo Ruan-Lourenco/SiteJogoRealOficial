@@ -3,13 +3,14 @@
     padding: 0px;
 }
 body {
-    background-color: rgba(106, 241, 239, 0.795);
-    /* display: flex;
+    background-color: rgba(76, 185, 183, 0.795);
+    display: flex;
     align-items: center;
-    justify-content: center;  */
+    justify-content: center; 
 }
 
 main {
+    /* display: flex; */
     background-color: rgb(204, 255, 203);
     color: rgb(43, 42, 42);
     height: 450px;
@@ -17,10 +18,12 @@ main {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 3px 3px 10px 1px;
-    position: absolute;
+    /* align-items: center;
+    justify-content: center; */
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 label{
@@ -43,7 +46,7 @@ h1{
 #inputCheckbox{
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 #question{
@@ -52,22 +55,27 @@ h1{
     font-size: large;
 }
 
-#blockcommand{
+/* #blockcommand{
     position: static;
-}
+} */
 
 #inputNum{
     font-size: large;
-    position: absolute;
+    /* position: absolute;
     top: 40%;
-    left: 25%;
+    left: 25%; */
 }
 
 a{
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 
 a:visited{
-    color: #000;
+    color: #ffffff;
 }
 
+
+button{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
