@@ -9,25 +9,28 @@
 <body>
     <main>
     <div id="blockcommand">
+
         <h1>Jogo da Advinhação</h1>
+
         <p id="question">Em qual dificuldade deseja jogar?</p>
+
         <div id="inputCheckbox">
-            <input type="checkbox" id="facil"> <label for="facil">Fácil</label>
-            <input type="checkbox" id="medio"> <label for="medio">Médio</label>
-            <input type="checkbox" id="dificil"> <label for="dificil">Difícil</label>
+            <input type="radio" name="escolha" id="facil"> <label for="facil">Fácil</label>
+            <input type="radio" name="escolha"  id="medio"> <label for="medio">Médio</label>
+            <input type="radio" name="escolha" id="dificil"> <label for="dificil">Difícil</label>
             <button type="submit">Jogar</button>
         </div>
+
         <div id="inputNum">
             <p>Advinhe em qual número estou pensando!</p>
             <input type="text" minlength="1" placeholder="Digite seu número:" id="writeNum">
-            <button type="submit">Enviar</button>
+            <button type="submit" id="sendNum">Enviar</button>
         </div>
-        <div></div>
     </div>
     </main>
-<!--     
+    
     <footer>
         <p>Produzido por: <a href="">Ruan Pelegrini Lourenço</a>(HTML e CSS) e <a href="">Pedro Henrique Gomes Frossad</a>(JavaScript)</p>
-    </footer> -->
+    </footer>
 </body>
 </html>

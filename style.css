@@ -5,12 +5,14 @@
 body {
     background-color: rgba(76, 185, 183, 0.795);
     display: flex;
-    align-items: center;
     justify-content: center; 
+    align-items: center;
+    height: 100vh;
 }
 
 main {
     /* display: flex; */
+    position: static;
     background-color: rgb(204, 255, 203);
     color: rgb(43, 42, 42);
     height: 450px;
@@ -55,15 +57,11 @@ h1{
     font-size: large;
 }
 
-/* #blockcommand{
-    position: static;
-} */
 
 #inputNum{
+    text-align: center;
     font-size: large;
-    /* position: absolute;
-    top: 40%;
-    left: 25%; */
+    margin-top: 50px;
 }
 
 a{
@@ -79,3 +77,9 @@ button{
     background-color: red;
     color: rgb(255, 255, 255);
 }
+
+button:active{
+    background-color: black;
+}
+
+
