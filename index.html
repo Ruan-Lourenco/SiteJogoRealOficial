@@ -15,22 +15,30 @@
         <p id="question">Em qual dificuldade deseja jogar?</p>
 
         <div id="inputCheckbox">
-            <input type="radio" name="escolha" id="facil"> <label for="facil">Fácil</label>
-            <input type="radio" name="escolha"  id="medio"> <label for="medio">Médio</label>
-            <input type="radio" name="escolha" id="dificil"> <label for="dificil">Difícil</label>
-            <button type="submit">Jogar</button>
+            <input type="radio" name="escolha" id="facil" required> <label for="facil">Fácil</label>
+            <input type="radio" name="escolha"  id="medio" required> <label for="medio">Médio</label>
+            <input type="radio" name="escolha" id="dificil" required> <label for="dificil">Difícil</label>
+            <button type="submit" onclick="pegardificuldade()">Jogar</button>
+        </div>
+        
+        <div id="DnumDif">
+            <p id="numDif"></p>
         </div>
 
         <div id="inputNum">
             <p>Advinhe em qual número estou pensando!</p>
             <input type="text" minlength="1" placeholder="Digite seu número:" id="writeNum">
-            <button type="submit" id="sendNum">Enviar</button>
+            <button type="submit" id="sendNum" onclick="envioNum()">Enviar</button>
         </div>
+    </div>
+    <div id="dp">
+        <p id="pjs"></p>
     </div>
     </main>
     
     <footer>
         <p>Produzido por: <a href="">Ruan Pelegrini Lourenço</a>(HTML e CSS) e <a href="">Pedro Henrique Gomes Frossad</a>(JavaScript)</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>

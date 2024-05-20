@@ -61,7 +61,6 @@ h1{
 #inputNum{
     text-align: center;
     font-size: large;
-    margin-top: 50px;
 }
 
 a{
@@ -80,6 +79,25 @@ button{
 
 button:active{
     background-color: black;
+}
+
+
+#dp{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#DnumDif{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+
 }
 
 
